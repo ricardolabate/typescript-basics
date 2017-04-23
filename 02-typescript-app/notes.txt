@@ -1,0 +1,10 @@
+commands and packages:
+
+lite-server = to create a small server
+
+npm start = start lite-server (package.json)
+
+tsc --init = compile all Typescript (creates tsconfig.json)
+
+tsc = compile app.ts -> app.js
+
