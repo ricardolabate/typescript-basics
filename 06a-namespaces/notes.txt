@@ -1,0 +1,17 @@
+commands and packages:
+
+lite-server = to create a small server
+
+npm start = start lite-server (package.json)
+
+tsc --init = compile all Typescript (creates tsconfig.json)
+
+tsc = compile app.ts -> app.js
+
+tsc --watch -> auto reload ts
+
+tsc --outFile app.js file1.ts file2.ts app.ts -> bundle all the ts files into one file.
+
+tsc app.ts --outFile app.js -> compile all the ts files to use with:
+/// <reference path="circleMath.ts" />
+/// <reference path="rectangleMath.ts" />
